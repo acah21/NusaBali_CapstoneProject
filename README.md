@@ -27,11 +27,9 @@ Antarmuka pengguna web yang dibangun menggunakan:
 ### 2. NUSABali (Backend)
 
 Layanan RESTful API yang menyajikan:
-
 - Fitur rekomendasi
 
 Teknologi yang digunakan:
-
 - Node.js
 - Hapi.js framework
 
@@ -43,25 +41,17 @@ Komponen Machine Learning untuk sistem rekomendasi destinasi wisata di Bali menc
 
 ## Instalasi dan Pengaturan Proyek
 
-### Prasyarat
-
-- Node.js (v14.x atau lebih baru)
-- NPM atau Yarn
-- Database MySQL/PostgreSQL
 
 ### Instalasi Frontend
 
 ```sh
-# Masuk ke direktori frontend
-cd JantungIn-FE
-
 # Instal dependensi
 npm install
 
 # Jalankan untuk development
 npm run dev
 
-# Build untuk production
+#Build Website (Dist)
 npm run build
 ```
 
@@ -69,7 +59,7 @@ npm run build
 
 ```sh
 # Masuk ke direktori backend
-cd JantungIn_API
+cd backend
 
 # Instal dependensi
 npm install
@@ -78,26 +68,12 @@ npm install
 npm start
 ```
 
-### Konfigurasi Inference Model
-
-```sh
-# Masuk ke direktori inference
-cd Inference
-
-# Instal dependensi
-npm install
-
-# Jalankan untuk development
-npm run dev
-```
-
 ## Deployment
 
 Aplikasi ini dirancang untuk dapat di-deploy dalam beberapa cara:
 
-- Frontend: Netlify, Vercel, atau hosting statis lainnya
-- Backend: Heroku, AWS, atau layanan cloud lainnya
-- Database: Layanan database terkelola
+- Frontend: Netlify(Yang kami pakai), Vercel, atau hosting statis lainnya
+- Backend: Railway(Yang kami pakai), Heroku, AWS, atau layanan cloud lainnya
 
 ## Tim Pengembang
 NUSABali dikembangkan oleh Tim Mahasiswa dalam prgram Studi Independen Coding Camp 2025 powered by DBS Foundation
